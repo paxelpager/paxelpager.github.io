@@ -1,0 +1,134 @@
+.game-title{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body{
+    /* background-image: "../../images/polyleap_bg.png"; */
+    background-color: #60abca;
+}
+
+header{
+    /* background-color: var(--pxWhite); */
+    border: 25px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    /* position: fixed; */
+
+}
+div.banner-wcase{
+    justify-content: center;
+    display: flex;
+}
+
+img.banner-image{
+    z-index: -5;
+    position: absolute;
+    overflow: visible;
+    text-align: center;
+    object-fit: unset;
+    white-space: normal;
+    width: 50%;
+    min-width: 600px;
+    height: auto;
+    justify-self: center;
+}
+header > article{
+    color: var(--pxWhite);
+}
+div.banner{
+    display: grid;
+    justify-items: center;
+    width: 75%;
+}
+
+
+img.title-image {
+
+    justify-items: center;
+
+    width: 40%;
+    min-width: 300px;
+    max-width: 600px;   
+}
+
+
+div.platforms{
+    color: var(--pxWhite) !important;
+    margin-top: 50px;
+
+    background-color: rgba(40, 40, 40);
+
+    padding: 25px;
+    border-radius: 30px;
+}
+div.platforms > h1,h2,i{
+    color: var(--pxWhite) !important;
+}
+
+div.social-links{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50px;
+
+}
+
+div.social-links > a{
+    margin: 0px 25px 0px 25px;
+}
+
+div.social-links{
+    justify-content: center;
+}
+
+div.details > p{
+    font-family: 'Oswald', sans-serif;
+    color: var(--pxWhite);
+    font-size: 20px;
+    background-color: rgba(36, 36, 36);
+    border-radius: 25px;
+    padding: 25px;
+}
+
+div.gallery-canvas{
+    padding: 25px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 25px;
+}
+
+div.gallery{
+    justify-content: center;
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gallery-canvas > h2{
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+img.gameimages{
+    transform: scale(1); 
+    margin: 10px;
+
+    width: 35%;
+    height: auto;
+        
+    transition: transform .2s; /* Animation */
+}
+
+
+img.gameimages:hover{
+    transform: scale(1.3); 
+    z-index: 9999;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    div.header-canvas{padding: 0px;}
+    img.gameimages{width: 75%;}
+}

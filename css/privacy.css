@@ -1,0 +1,50 @@
+/* by paxel the great */
+/*🎵sandığımı açamadım - esin avşar🎵*/
+
+p{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(25, 25, 25);
+
+}
+
+h3{
+    color: rgb(25, 25, 25);
+    font-family: 'Oswald', sans-serif;
+}
+
+div.canvas{
+    text-align: left;
+    margin: 75px 0% 50px 0% !important; 
+    min-width: 600px;
+    display: block ruby;
+    text-align: center !important;
+}
+
+
+div.articleCase{
+    width: 40%;
+    min-width: 500px;
+    align-self: center;
+}
+
+p,h2,h3{
+    text-align: left;
+
+}
+
+@media only screen and (max-width: 768px) {
+    div.canvas{
+        min-width: 0px;
+        width: 100%;
+    }
+}
+
+
+
