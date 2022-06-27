@@ -128,7 +128,6 @@ img.gameimages:hover{
 
 
 @media only screen and (max-width: 768px) {
-
-    div.header-canvas{padding: 0px;}
+    img.banner-image{display: none;}
     img.gameimages{width: 75%;}
 }

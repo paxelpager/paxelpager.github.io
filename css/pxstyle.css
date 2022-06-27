@@ -175,6 +175,10 @@ footer a:hover{
 
 
 @media only screen and (max-width: 768px) {
+    div.header-canvas{padding: 0px;}
+    
+    
+
     header > article {
       display: none;
     }
