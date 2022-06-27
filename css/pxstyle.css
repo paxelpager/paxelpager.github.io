@@ -187,4 +187,7 @@ footer a:hover{
         width: 100%;
         min-width: 0px;
     }
+    footer {
+        font-size: 25px;
+    }
 }
